@@ -11,7 +11,7 @@ const Logo = () => {
       <h1 className="text-primary font-bold hover:underline tracking-[3px]">
         {theme === "light" ? (
           <Image
-            src="/SVG/Asset 7.svg"
+            src="/SVG/logo_light_7.svg"
             alt="logo"
             width={50}
             height={50}
@@ -20,7 +20,7 @@ const Logo = () => {
           />
         ) : (
           <Image
-            src="/SVG/Asset 8.svg"
+            src="/SVG/logo_dark_8.svg"
             alt="logo"
             width={50}
             height={50}
