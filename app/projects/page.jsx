@@ -17,7 +17,7 @@ const projectData = [
     name: "Summize",
     description: "Summarize articles with AI",
     category: "react js",
-    image: "/work/screenshot2.png",
+    image: "/work/screenshot_2.png",
     link: "/",
     github: "/",
   },
