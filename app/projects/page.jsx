@@ -9,7 +9,7 @@ const projectData = [
     name: "TalkMate",
     description: "AI Language Learning Assistant",
     category: "react js",
-    image: "/work/screenshot.png",
+    image: "/work/talkmate.png",
     link: "/",
     github: "/",
   },
