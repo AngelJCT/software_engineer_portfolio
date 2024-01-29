@@ -106,7 +106,7 @@ const skillData = [
         imgPath: "/about/vscode.svg",
       },
       {
-        imgPath: "/about/Git-icon-1788C.svg",
+        imgPath: "/about/git_logo.svg",
       },
       {
         imgPath: "/about/linux-icon.svg",
