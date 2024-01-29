@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 174.86 173.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        fill: #f9f9fa;
+        font-family: Inter-Medium, Inter;
+        font-size: 20.03px;
+        font-variation-settings: 'wght' 500, 'slnt' 0;
+        font-weight: 500;
+        letter-spacing: .05em;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: #323a47;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="92.08" y1="54.73" x2="105.16" y2="90.28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f9f9fa"/>
+      <stop offset=".24" stop-color="#f2f2f3"/>
+      <stop offset=".6" stop-color="#dedfe3"/>
+      <stop offset="1" stop-color="#c1c3c9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="77.38" y1="70.54" x2="67.32" y2="94.83" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f9f9fa"/>
+      <stop offset=".34" stop-color="#e9eaec"/>
+      <stop offset=".99" stop-color="#c1c3c9"/>
+      <stop offset="1" stop-color="#c1c3c9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="69.95" y1="80.8" x2="72.04" y2="86.49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#323a47"/>
+      <stop offset="1" stop-color="#323a47"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <ellipse class="cls-4" cx="87.43" cy="86.57" rx="87.43" ry="86.57"/>
+    <polygon class="cls-1" points="79.51 37.07 91.64 37.07 115.91 103 104.18 103 79.51 37.07"/>
+    <polygon class="cls-2" points="78.33 52.03 84 68.41 70.65 103 57.71 103 78.33 52.03"/>
+    <text class="cls-5" transform="translate(51.6 132.4) scale(1.04 1)"><tspan x="0" y="0">ANGEL</tspan></text>
+    <rect class="cls-3" x="56.74" y="82.1" width="28.23" height="2.31"/>
+  </g>
+</svg>

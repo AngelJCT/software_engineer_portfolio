@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 144.93 143.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-4 {
+        fill: #f9f9fa;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="80.02" y1="56.87" x2="93.68" y2="94.02" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#323a47"/>
+      <stop offset=".6" stop-color="#3b4454" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="63.44" y1="72.45" x2="52.51" y2="98.86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#323a47"/>
+      <stop offset=".76" stop-color="#3b4454" stop-opacity=".85"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="69.61" y1="81.75" x2="73.72" y2="92.9" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f9f9fa"/>
+      <stop offset="1" stop-color="#f9f9fa"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <ellipse class="cls-4" cx="72.47" cy="71.75" rx="72.47" ry="71.75"/>
+    <polygon class="cls-1" points="65.76 36.06 78.95 36.06 105.34 107.74 92.58 107.74 65.76 36.06"/>
+    <polygon class="cls-2" points="64.48 52.33 70.63 70.14 56.12 107.74 42.05 107.74 64.48 52.33"/>
+    <rect class="cls-3" x="40.98" y="85.29" width="60.81" height="2.52"/>
+    <circle class="cls-4" cx="55.92" cy="42.24" r="22.46"/>
+  </g>
+</svg>
