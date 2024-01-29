@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/svg/Asset 8.svg" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light">
