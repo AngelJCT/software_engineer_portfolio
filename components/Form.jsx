@@ -67,7 +67,7 @@ const Form = () => {
       </div>
       <div className="relative flex items-center border border-gray-400 rounded-lg shadow-sm dark:shadow-none">
         <Textarea
-          placeholder="Type Your Message Here."
+          placeholder="Your Message Here."
           id="message"
           value={values.message}
           onChange={handleChange}
