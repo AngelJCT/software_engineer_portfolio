@@ -4,7 +4,7 @@ import Form from "@/components/Form";
 
 const Contact = () => {
   return (
-    <section className="bg-gradient-to-b from-[#f9f9f9] via-[#c1c3c9] to-[#f9f9f9] dark:bg-gradient-to-b dark:from-[#111114] dark:via-[#1d1f25] dark:to-[#111114]">
+    <section className="bg-gradient-to-b from-[#f9f9f9] via-[#c1c3c9] to-[#f9f9f9] dark:bg-gradient-to-b dark:from-[#0f0f12] dark:via-[#1d1f25] dark:to-[#0f0f12]">
       <div className="container mx-auto">
         {/* text & illustration */}
         <div className="grid xl:grid-cols-2 pt-12 xl:h-[480px] mb-6 xl:mb-24">

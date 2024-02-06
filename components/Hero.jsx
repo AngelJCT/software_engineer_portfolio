@@ -67,7 +67,7 @@ const Hero = () => {
   }, []); */
 
   return (
-    <section className="py-12 xl:py-24 sm:h-[84vh] xs:h-[100vh] xl:pt-28 bg-gradient-to-b from-[#f9f9f9] to-[#c1c3c9] bg-no-repeat bg-bottom bg-cover dark:bg-gradient-to-b dark:from-[#111114] dark:to-[#1d1f25]">
+    <section className="py-12 xl:py-24 sm:h-[84vh] xs:h-[100vh] xl:pt-28 bg-gradient-to-b from-[#f9f9f9] to-[#c1c3c9] bg-no-repeat bg-bottom bg-cover dark:bg-gradient-to-b dark:from-[#0f0f12] dark:to-[#1d1f25]">
       <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
