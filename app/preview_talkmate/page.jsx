@@ -44,7 +44,9 @@ const ProjectImages = () => {
           />
         </div>
         <div className="text-center md:text-left mt-5 mb-5">
-          <h3 className="h3 mb-5 md:mb-3">TalkMate</h3>
+          <h3 className="h3 mb-5 md:mb-3 text-darkBlue underline underline-offset-[6px]">
+            TalkMate
+          </h3>
           <h4 className="h4 mb-5 md:mb-3">
             Engage in real-time conversations with native speakers, powered by
             intelligent AI that provides:
