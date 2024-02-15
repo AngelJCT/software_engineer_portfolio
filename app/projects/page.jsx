@@ -10,16 +10,16 @@ const projectData = [
     description: "AI Language Learning Assistant",
     category: "react js",
     image: "/work/talkmate.png",
-    link: "/",
-    github: "/",
+    link: "https://talkmate-react.vercel.app/",
+    github: "https://github.com/AngelJCT/_talkmate_react",
   },
   {
     name: "Summize",
     description: "Summarize articles with AI",
     category: "react js",
     image: "/work/screenshot_2.png",
-    link: "/",
-    github: "/",
+    link: "",
+    github: "https://github.com/AngelJCT/ai_summarizer",
   },
 ];
 
