@@ -1,22 +1,15 @@
 import React from "react";
 import ProjectCard from "@/components/ProjectCard";
 import Image from "next/image";
+import { Badge } from "@/components/ui/badge";
 
 // Assuming projectData is imported or defined elsewhere in the file
 const projectData = [
   {
     name: "TalkMate",
     description: "AI Language Learning Assistant",
-    category: "react js",
+    category: ["react js", "openai", "tailwind css", "firebase"],
     image: "/work/talkmate.png",
-    link: "/",
-    github: "/",
-  },
-  {
-    name: "Summize",
-    description: "Summarize articles with AI",
-    category: "react js",
-    image: "/work/screenshot_2.png",
     link: "/",
     github: "/",
   },
@@ -24,6 +17,11 @@ const projectData = [
 ];
 
 const ProjectImages = () => {
+  // Flatten the array of categories from all projects and create a unique set
+  const uniqueCategories = Array.from(
+    new Set(projectData.flatMap((project) => project.category))
+  );
+
   return (
     <section className="min-h-screen pt-12 bg-gradient-to-b from-[#f9f9f9] via-[#c1c3c9] to-[#f9f9f9] dark:bg-gradient-to-b dark:from-[#0f0f12] dark:via-[#1d1f25] dark:to-[#0f0f12]">
       <div className="container mx-auto">
@@ -34,7 +32,7 @@ const ProjectImages = () => {
             height={650}
             alt="Preview of TalkMate"
             priority
-            className="w-full h-auto rounded-md shadow-xl"
+            className="w-full h-auto rounded-sm drop-shadow-xl shadow-xl dark:shadow-none border-[#f9f9f9] border-8 dark:border-[#f9f9f9]"
           />
           <Image
             src={"/work/chat_interface.png"}
@@ -42,7 +40,7 @@ const ProjectImages = () => {
             height={650}
             alt="Preview of TalkMate"
             priority
-            className="w-full h-auto rounded-md shadow-xl"
+            className="w-full h-auto rounded-sm shadow-xl drop-shadow-xl dark:shadow-none border-8 border-[#f9f9f9] dark:border-[#f9f9f9]"
           />
         </div>
         <div className="text-center md:text-left mt-5 mb-5">
@@ -51,7 +49,7 @@ const ProjectImages = () => {
             Engage in real-time conversations with native speakers, powered by
             intelligent AI that provides:
           </h4>
-          <p className="mb-10 text-lg max-w-2xl max-auto xl:mx-0">
+          <p className="mb-5 text-lg max-w-2xl max-auto xl:mx-0">
             <ul className="list-disc list-inside">
               <li>
                 <b>Seamless translation:</b> Break down language barriers and
@@ -68,6 +66,13 @@ const ProjectImages = () => {
               </li>
             </ul>
           </p>
+        </div>
+        <div className="gap-4 h-full mb-10">
+          {uniqueCategories.map((category, index) => (
+            <Badge key={index} className="ml-2">
+              {category}
+            </Badge>
+          ))}
         </div>
       </div>
     </section>
