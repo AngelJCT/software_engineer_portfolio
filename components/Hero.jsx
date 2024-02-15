@@ -72,15 +72,13 @@ const Hero = () => {
         <div className="flex justify-between gap-x-8">
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Software Engineer
+              Software Developer
             </div>
             <h1 className="hero-title h1 mb-4">Hi, I'm Angel Carrion</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              "Software Engineer with a focus on creating intuitive React
-              websites, honed through a hands-on 9-month project-based program.
-              Skilled in Python, Flask, MySQL, Firebase, MongoDB, and merging
-              photography with AI. Committed to innovation and continuous
-              learning."
+              "Software Developer with a focus on creating intuitive and
+              engaging digital experiences. Love merging photography with AI.
+              Committed to innovation and continuous learning."
             </p>
 
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
