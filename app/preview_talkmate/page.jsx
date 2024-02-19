@@ -24,27 +24,27 @@ const ProjectImages = () => {
 
   return (
     <section className="min-h-screen pt-12 bg-gradient-to-b from-[#f9f9f9] via-[#c1c3c9] to-[#f9f9f9] dark:bg-gradient-to-b dark:from-[#0f0f12] dark:via-[#1d1f25] dark:to-[#0f0f12]">
+      <div className="sm:hidden xs:block">
+        <Image
+          src={"/work/Nokia_XR21.png"}
+          alt="Preview of TalkMate"
+          width={1500}
+          height={1500}
+          className="w-full"
+        />
+      </div>
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="xs:hidden sm:block">
           <Image
-            src={"/work/starting_page.png"}
-            width={647}
-            height={650}
+            src={"/work/Nokia_XR21.png"}
             alt="Preview of TalkMate"
-            priority
-            className="w-full h-auto rounded-sm drop-shadow-xl shadow-xl dark:shadow-none border-[#f9f9f9] border-8 dark:border-[#f9f9f9]"
-          />
-          <Image
-            src={"/work/chat_interface.png"}
-            width={647}
-            height={650}
-            alt="Preview of TalkMate"
-            priority
-            className="w-full h-auto rounded-sm shadow-xl drop-shadow-xl dark:shadow-none border-8 border-[#f9f9f9] dark:border-[#f9f9f9]"
+            width={1200}
+            height={1200}
+            className="w-full"
           />
         </div>
         <div className="text-center md:text-left mt-5 mb-5">
-          <h3 className="h3 mb-5 md:mb-3 text-darkBlue underline underline-offset-[6px]">
+          <h3 className="h3 mb-5 md:mb-3 text-darkBlue dark:text-[#7c95ba] underline underline-offset-[6px]">
             TalkMate
           </h3>
           <h4 className="h4 mb-5 md:mb-3">
