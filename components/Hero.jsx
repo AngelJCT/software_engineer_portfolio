@@ -74,7 +74,9 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Software Developer
             </div>
-            <h1 className="hero-title h1 mb-4">Hi, I'm Angel Carrion</h1>
+            <h1 className="hero-title h1 mb-4 py-1 bg-gradient-to-r from-primary to-muted-foreground bg-clip-text text-transparent dark:bg-gradient-to-r dark:from-primary dark:to-muted-foreground dark:text-transparent dark:bg-clip-text">
+              Hi, I'm Angel Carrion
+            </h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
               "Software Developer with a focus on creating intuitive and
               engaging digital experiences. Love merging photography with AI.
