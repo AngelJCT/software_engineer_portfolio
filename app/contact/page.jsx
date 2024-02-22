@@ -14,7 +14,7 @@ const Contact = () => {
               <span className="w-[30px] h-[2px] bg-darkBlue dark:bg-[#7c95ba]"></span>
               Say Hello
             </div>
-            <h1 className="h1 max-w-md mb-8 py-1 bg-gradient-to-r from-primary to-muted-foreground bg-clip-text text-transparent dark:bg-gradient-to-r dark:from-primary dark:to-muted-foreground dark:bg-clip-text dark:text-transparent">
+            <h1 className="h1 max-w-md mb-8 py-2 bg-gradient-to-r from-primary to-muted-foreground bg-clip-text text-transparent dark:bg-gradient-to-r dark:from-primary dark:to-muted-foreground dark:bg-clip-text dark:text-transparent">
               Let's Work Together.
             </h1>
             <p className="subtitle max-w-[400px]">
