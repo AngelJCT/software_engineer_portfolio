@@ -44,7 +44,7 @@ const ProjectCard = ({ project }) => {
         <Badge className="uppercase text-sm font-medium mb-2 absolute top-4 left-5 shadow-xl">
           {project.category}
         </Badge>
-        <Link href="/preview_talkmate" passHref>
+        <Link href={project.previewUrl} passHref>
           <h4 className="h4 mb-1 underline underline-offset-4">
             {project.name}
           </h4>

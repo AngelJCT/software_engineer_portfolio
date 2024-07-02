@@ -21,14 +21,16 @@ const projectData = [
     image: "/work/talkmate.png",
     link: "https://talkmate-react.vercel.app/",
     github: "https://github.com/AngelJCT/_talkmate_react",
+    previewUrl: "/preview_talkmate"
   },
   {
-    name: "Summize",
-    description: "Summarize articles with AI",
-    category: "react js",
-    image: "/work/screenshot_2.png",
-    link: "/projects",
-    github: "https://github.com/AngelJCT/ai_summarizer",
+    name: "SyntaxBridge",
+    description: "Compare programming languages syntax",
+    category: "next js",
+    image: "/work/syntaxbridge.png",
+    link: "https://www.syntaxbridge.app/",
+    github: "https://github.com/AngelJCT/SyntaxBridge",
+    previewUrl: ""
   },
 ];
 
